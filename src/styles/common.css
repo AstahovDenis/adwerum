@@ -1,0 +1,10 @@
+body{
+    box-sizing: border-box;
+    font-family: 'Poppins';
+    max-width: 1280px;
+    height: 100vh;
+    margin: 0 auto;
+    /*border: 1px solid darkred;*/
+    background: rgba(61, 61, 254, 0.7);
+    background: linear-gradient(156deg, rgb(61, 61, 254) 0%, rgb(19, 19, 19) 100%);
+}
