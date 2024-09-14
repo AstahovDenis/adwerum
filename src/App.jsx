@@ -1,7 +1,16 @@
+import React from 'react';
+import {Route, Routes} from 'react-router-dom';
+import AuthRootComponent from "./components/auth-page/index.jsx";
+
 function App() {
   return (
     <>
-      <h1>HWARFR</h1>
+      <div className='App'>
+        <Routes>
+            <Route path='login' element={<AuthRootComponent />}/>
+            <Route path='register' element={<AuthRootComponent />}/>
+        </Routes>
+      </div>
     </>
   )
 }
