@@ -5,16 +5,12 @@ import './styles/reset.css'
 import './styles/common.css'
 import './styles/nav-style.css'
 import './styles/header-style.css'
-import Nav from "./components/nav/Nav.jsx"
-import RegisterPage from "./components/auth-page/register/RegisterPage.jsx";
-import LoginPage from "./components/auth-page/login/LoginPage.jsx";
+import App from "./App.jsx";
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
       <BrowserRouter>
-          <Nav />
-          <RegisterPage/>
-          <LoginPage/>
+          <App/>
       </BrowserRouter>
   </StrictMode>,
 )
